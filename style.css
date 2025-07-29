@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Gothic';
+    src: url(SpecialGothicExpandedOne-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.top-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 0px;
+  gap: 40px;
+  background-color: rgb(215, 215, 215);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.top-back button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #eee;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.top-back button:hover {
+  background-color: #ccc;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-left: 0px;
+  gap: 40px;
+  background-color: rgb(215, 215, 215);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.top-nav button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #eee;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.top-nav button:hover {
+  background-color: #ccc;
+}
+
+.login-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: #333;
+  color: rgb(0, 0, 0);
+}
+
+.content {
+  margin-left: 120px;
+  padding: 40px;
+  max-width: 1000px;
+}
+
+h1 {
+    font-family: "Gothic";
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  gap: 40px;
+}
+
+.section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.section img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.section p {
+  max-width: 400px;
+  text-align: justify;
+}
